@@ -2,7 +2,7 @@ function startProcess() {
     const minRating = parseFloat(document.getElementById('min-rating').value);
     const numPlayers = parseInt(document.getElementById('num-players').value);
 
-    fetch('data/soccer_players.csv') // CSVファイルを読み込む
+    fetch('data/players.csv') // CSVファイルを読み込む
         .then(response => response.text())
         .then(csvText => {
             const rows = csvText.split('\n').map(row => row.split(','));
