@@ -80,7 +80,7 @@ function showTopPlayerInfo(topPlayer) {
         // チームのエンブレム画像
         const NationTeamId = topPlayer.nationality_id; // チームID
         const emblemImg = document.createElement('img');
-        const emblemImgURL = `https://game-assets.fut.gg/2024/nations/${NationTeamId}.png`;
+        const emblemImgURL = `https://game-assets.fut.gg/2027/nations/${NationTeamId}.png`;
 
         emblemImg.src = emblemImgURL;
         emblemImg.alt = `${topPlayer.nationality_name}`;
@@ -113,7 +113,7 @@ function showTopPlayerInfo(topPlayer) {
         // チームのエンブレム画像
         const clubTeamId = topPlayer.club_team_id; // チームID
         const emblemImg = document.createElement('img');
-        const emblemImgURL = `https://cdn.futbin.com/content/fifa24/img/clubs/${clubTeamId}.png`;
+        const emblemImgURL = `https://cdn.futbin.com/content/fifa27/img/clubs/${clubTeamId}.png`;
 
         emblemImg.src = emblemImgURL;
         emblemImg.alt = `${topPlayer.club_name}`;
@@ -134,7 +134,7 @@ function showTopPlayerInfo(topPlayer) {
         const playerID = topPlayer.player_id;
         const idPart1 = zeroPad(Math.floor(playerID / 1000), 3); // 3桁にゼロ埋め
         const idPart2 = zeroPad(playerID % 1000, 3); // 3桁にゼロ埋め
-        const imgURL = `https://cdn.futbin.com/content/fifa24/img/players/${playerID}.png`;
+        const imgURL = `https://cdn.futbin.com/content/fifa27/img/players/${playerID}.png`;
         img.src = imgURL;
         img.alt = topPlayer.short_name;
 
