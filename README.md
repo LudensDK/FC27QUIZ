@@ -1,7 +1,7 @@
-# FC24PlayerQuiz
+# FC27Quiz
 ## 概要
 このアプリケーションでは、EA FCシリーズのFUTモードにおけるパックをシミュレーションすることができます。
-ただ、選手データはFUTのものではなく、単にFC24のものであるため、主に国旗やポジション、所属チームから選手名を当てるクイズとして楽しむことを目的に作られています。
+ただ、選手データはFUTのものではなく、単にFC27のものであるため、主に国旗やポジション、所属チームから選手名を当てるクイズとして楽しむことを目的に作られています。
 
 ## 使い方
 まず、パックに含まれる選手の最低総合値と、人数を指定してください。
@@ -12,10 +12,8 @@
 一部の女子チームに関して、エンブレム画像が表示されない場合がある。
 
 ## 謝辞
-* このアプリケーションでは、画像をfutbin.com やfut.gg から直リンクで引用し使用しています。そのうち、FC24のアセットに該当するものの権利はEAにあります。
-* このアプリケーションは、https://www.kaggle.com/datasets/stefanoleone992/ea-sports-fc-24-complete-player-dataset のデータを一部改変して作成しています。
+* このアプリケーションでは、画像をfutbin.com やfut.gg から直リンクで引用し使用しています。そのうち、FC27のアセットに該当するものの権利はEAにあります。
 * そのデータもSoFIFAのデータをスクレイピングして作成されています。なお、SoFIFAはスクレイピングに関して制限を設けていません。詳細はリンク先で確認してください。
-* また、ChatGPTは、プログラミング初心者である私を大変助けてくれました。
 
 # English
 
@@ -30,7 +28,4 @@ Please note that some emblem images may not be displayed with respect to some wo
 
 ## cknowledgements
 * This application uses images sourced from futbin.com and fut.gg with direct links. All FC assets are property of EA Sports.
-* This application was created by modifying some of the data from https://www.kaggle.com/datasets/stefanoleone992/ea-sports-fc-24-complete-player-dataset .
 * The data was also created by scraping data from SoFIFA. Please note that SoFIFA does not impose any restrictions on scraping. For further details, please refer to the link.
-* Additionally, I would like to acknowledge the assistance of ChatGPT, which was invaluable in my role as a novice programmer.
-* This text was translated using DeepL.
